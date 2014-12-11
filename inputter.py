@@ -1,4 +1,6 @@
-def get_key_val_pairs():
+def input_dict():
+    # currently only handles strings
+
     another = True
     d = dict()
     while another:
@@ -13,7 +15,7 @@ def get_key_val_pairs():
 
     return d
 
-def yesno(default = None):
+def input_bool(default = None):
     response = None
     responded = False
 
